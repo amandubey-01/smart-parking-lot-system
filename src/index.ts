@@ -26,7 +26,7 @@ const car = new Vehicle("DL01AB1234", VehicleType.CAR);
 const ticket = entryGate.enter(car);
 
 
-console.log("Vehicle parked at:", ticket.spot.id);
+console.log("Vehicle parked at:", ticket.spot.getLocation());
 
 // simulate time delay if needed
 

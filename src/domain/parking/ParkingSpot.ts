@@ -5,11 +5,24 @@ import type { publicDecrypt } from "node:crypto";
 export class ParkingSpot {
     private occupied = false;
     private vehicle: Vehicle | undefined;
+    private floorNumber?: number;
 
     constructor (
         public readonly id: string,
         public readonly type: SpotType,
     ){}
+
+     assignFloor(floorNumber: number) {
+        this.floorNumber = floorNumber;
+    }
+
+    getLocation(): string {
+        if (this.floorNumber === undefined) {
+            throw new Error("Spot is not assigned to any floor");
+        }
+        return `Floor ${this.floorNumber}, Spot ${this.id}`;
+    }
+
 
     isAvailable (): boolean {
         return !this.occupied;

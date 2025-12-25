@@ -1,6 +1,9 @@
-import { SpotType } from "./SpotType.js";
-import { Vehicle } from "../vehicle/Vehicle.js";
-export class ParkingSpot {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ParkingSpot = void 0;
+const SpotType_js_1 = require("./SpotType.js");
+const Vehicle_js_1 = require("../vehicle/Vehicle.js");
+class ParkingSpot {
     id;
     type;
     occupied = false;
@@ -34,4 +37,5 @@ export class ParkingSpot {
         this.occupied = false;
     }
 }
+exports.ParkingSpot = ParkingSpot;
 //# sourceMappingURL=ParkingSpot.js.map

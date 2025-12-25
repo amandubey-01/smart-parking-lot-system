@@ -1,0 +1,1 @@
+{"version":3,"file":"EntryGate.js","sourceRoot":"","sources":["../../src/gate/EntryGate.ts"],"names":[],"mappings":";;;AAAA,mEAA6D;AAC7D,6DAAuD;AACvD,wEAAkE;AAElE,MAAa,SAAS;IACG;IAArB,YAAqB,UAAsB;QAAtB,eAAU,GAAV,UAAU,CAAY;IAAG,CAAC;IAE/C,KAAK,CAAC,OAAgB;QAClB,OAAO,IAAI,CAAC,UAAU,CAAC,IAAI,CAAC,OAAO,CAAC,CAAA;IACxC,CAAC;CACJ;AAND,8BAMC"}

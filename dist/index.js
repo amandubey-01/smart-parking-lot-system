@@ -19,7 +19,7 @@ const entryGate = new EntryGate(parkingLot);
 const exitGate = new ExitGate(parkingLot);
 const car = new Vehicle("DL01AB1234", VehicleType.CAR);
 const ticket = entryGate.enter(car);
-console.log("Vehicle parked at:", ticket.spot.id);
+console.log("Vehicle parked at:", ticket.spot.getLocation());
 // simulate time delay if needed
 const fee = exitGate.exit(ticket);
 console.log("Parking fee:", fee);

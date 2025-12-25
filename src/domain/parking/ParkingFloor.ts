@@ -7,7 +7,11 @@ export class ParkingFloor {
     constructor (
         public readonly floorNumber: number,
         private spots : ParkingSpot[]
-    ){}
+    ){
+        this.spots.forEach(spot =>
+            spot.assignFloor(this.floorNumber)
+        );
+    }
 
     findAvailableSpot(vehicle: Vehicle) : ParkingSpot | undefined{
         return (
@@ -27,4 +31,3 @@ export class ParkingFloor {
     }
 
 }
- 

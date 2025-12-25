@@ -1,0 +1,1 @@
+{"version":3,"file":"ExitGate.js","sourceRoot":"","sources":["../../src/gate/ExitGate.ts"],"names":[],"mappings":";;;AAAA,mEAA6D;AAC7D,wEAAkE;AAElE,MAAa,QAAQ;IACC;IAApB,YAAoB,UAAsB;QAAtB,eAAU,GAAV,UAAU,CAAY;IAAG,CAAC;IAE9C,IAAI,CAAC,MAAqB;QACxB,OAAO,IAAI,CAAC,UAAU,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC;IACxC,CAAC;CACF;AAND,4BAMC"}

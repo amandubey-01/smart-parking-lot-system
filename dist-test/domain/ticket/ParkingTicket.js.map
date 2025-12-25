@@ -1,0 +1,1 @@
+{"version":3,"file":"ParkingTicket.js","sourceRoot":"","sources":["../../../src/domain/ticket/ParkingTicket.ts"],"names":[],"mappings":";;;AAAA,sDAAgD;AAChD,8DAAwD;AAExD,MAAa,aAAa;IAKN;IACA;IACA;IANlB,QAAQ,CAAQ;IAChB,GAAG,CAAU;IAEb,YACkB,OAAgB,EAChB,IAAiB,EACjB,SAAe;QAFf,YAAO,GAAP,OAAO,CAAS;QAChB,SAAI,GAAJ,IAAI,CAAa;QACjB,cAAS,GAAT,SAAS,CAAM;IAC9B,CAAC;CACL;AATD,sCASC"}

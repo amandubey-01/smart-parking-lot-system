@@ -8,6 +8,7 @@ export class ParkingFloor {
     constructor(floorNumber, spots) {
         this.floorNumber = floorNumber;
         this.spots = spots;
+        this.spots.forEach(spot => spot.assignFloor(this.floorNumber));
     }
     findAvailableSpot(vehicle) {
         return (this.spots.find(spot => spot.isAvailable() &&
