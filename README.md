@@ -41,7 +41,8 @@ The project is intentionally implemented as an **in-memory simulation** to clear
 ## UML Class Diagram
 ![alt text](docs/class-diagram.svg)
 
-## Project Structure 
+## Project Structure
+``` 
 smart-parking-lot/
 ├── src/
 │   ├── domain/
@@ -74,6 +75,7 @@ smart-parking-lot/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 The project follows a domain-driven, layered structure.
 Core business entities live under domain/, system behaviors and algorithms are separated into strategy/ and pricing/, and external interaction points are modeled via gate/. Documentation is kept at the root-level docs/ directory for clarity.
