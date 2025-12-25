@@ -2,7 +2,7 @@ import  {SpotType} from "./SpotType.js";
 import { Vehicle } from "../vehicle/Vehicle.js";
 import type { publicDecrypt } from "node:crypto";
 
-export class ParkingLot {
+export class ParkingSpot {
     private occupied = false;
     private vehicle: Vehicle | undefined;
 
