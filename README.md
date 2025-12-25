@@ -38,6 +38,46 @@ The project is intentionally implemented as an **in-memory simulation** to clear
 
 ---
 
+## UML Class Diagram
+![alt text](docs/class-diagram.svg)
+
+## Project Structure 
+smart-parking-lot/
+├── src/
+│   ├── domain/
+│   │   ├── vehicle/
+│   │   │   ├── Vehicle.ts
+│   │   │   └── VehicleType.ts
+│   │   ├── parking/
+│   │   │   ├── ParkingLot.ts
+│   │   │   ├── ParkingFloor.ts
+│   │   │   ├── ParkingSpot.ts
+│   │   │   └── SpotType.ts
+│   │   ├── ticket/
+│   │   │   └── ParkingTicket.ts
+│   │   └── pricing/
+│   │       ├── FeeCalculator.ts
+│   │       └── HourlyFeeCalculator.ts
+│   ├── strategy/
+│   │   ├── SpotAllocationStrategy.ts
+│   │   └── NearestSpotStrategy.ts
+│   ├── gate/
+│   │   ├── EntryGate.ts
+│   │   └── ExitGate.ts
+│   └── index.ts
+│
+├── docs/
+│   ├── class-diagram.md
+│   └── class-diagram.png
+│
+├── dist/                 # Compiled JavaScript output
+├── package.json
+├── tsconfig.json
+└── README.md
+
+The project follows a domain-driven, layered structure.
+Core business entities live under domain/, system behaviors and algorithms are separated into strategy/ and pricing/, and external interaction points are modeled via gate/. Documentation is kept at the root-level docs/ directory for clarity.
+
 ## Parking Flow
 
 1. Vehicle enters through `EntryGate`
