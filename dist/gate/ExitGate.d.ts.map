@@ -1,0 +1,1 @@
+{"version":3,"file":"ExitGate.d.ts","sourceRoot":"","sources":["../../src/gate/ExitGate.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iCAAiC,CAAC;AAC7D,OAAO,EAAE,aAAa,EAAE,MAAM,mCAAmC,CAAC;AAElE,qBAAa,QAAQ;IACP,OAAO,CAAC,UAAU;gBAAV,UAAU,EAAE,UAAU;IAE1C,IAAI,CAAC,MAAM,EAAE,aAAa,GAAG,MAAM;CAGpC"}

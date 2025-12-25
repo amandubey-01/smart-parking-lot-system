@@ -8,7 +8,7 @@ export class ParkingSpot {
 
     constructor (
         public readonly id: string,
-        public readonly type: SpotType
+        public readonly type: SpotType,
     ){}
 
     isAvailable (): boolean {
@@ -27,4 +27,6 @@ export class ParkingSpot {
         this.vehicle = undefined;
         this.occupied = false;
     }
+
+
 }
